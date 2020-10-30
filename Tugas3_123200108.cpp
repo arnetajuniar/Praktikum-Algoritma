@@ -64,7 +64,7 @@ int main ()
 			cout << "Password Anda salah!";
 		}
 	}
-	else if (pass == "inipassword1230"){
+	else if (pass == "inipassword123"){
 		cout << "Username Anda salah!";
 	}
 	else {
