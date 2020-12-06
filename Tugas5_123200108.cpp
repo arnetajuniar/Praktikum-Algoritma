@@ -42,12 +42,5 @@ int main()
 		default:
 			cout<< "Pilihan tidak tersedia";
 	}
-	
-	
-	
-	
-	
-	
-	
 	return 0;
 }
