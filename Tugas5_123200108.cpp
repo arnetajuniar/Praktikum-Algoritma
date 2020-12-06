@@ -27,6 +27,7 @@ int main()
 				}
 				cout<< "\n";	
 			}
+			cin.get();
 			break;
 		case 2:
 			cout<< "Tinggi	: "; cin>> t;
@@ -38,9 +39,13 @@ int main()
 				}
 				cout<< endl;
 			}
+			cin.get();
 			break;
 		default:
-			cout<< "Pilihan tidak tersedia";
+			cout<< "Input Anda salah!";
+			cin.get();
+			break;
 	}
+	cin.get();
 	return 0;
 }
