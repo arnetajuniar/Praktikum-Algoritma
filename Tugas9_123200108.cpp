@@ -45,7 +45,7 @@ int main()
         } else if (angka[i]<angka[i+1]){
             selisih=angka[i+1]-angka[i];
             if(max<angka[i+1]-angka[i]){
-			max = angka[i+1]-angka[i];
+				max = angka[i+1]-angka[i];
 			}
         } else if(angka[i]>angka[i+1]){
              selisih = angka[i]-angka[i+1];
